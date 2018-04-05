@@ -1,0 +1,30 @@
+{
+  "name": "scaping",
+  "version": "1.0.0",
+  "description": "Web Scraping ,fetch products from e commerce site",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hamidabdul1994/scraping.git"
+  },
+  "keywords": [
+    "web",
+    "scraping",
+    "e-commerce"
+  ],
+  "author": "Hamid Raza Noori <noorihamid1994@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamidabdul1994/scraping/issues"
+  },
+  "homepage": "https://github.com/hamidabdul1994/scraping#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.85.0"
+  }
+}
